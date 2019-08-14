@@ -3,10 +3,10 @@
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "prefix-order-id-1.0.0",
+    "description": "prefix-order-id",
     "authors": [
     {
-        "name": "Vinit",
+        "name": "contact@orangemantra.com",
         "email": "contact@orangemantra.com"
     }
 ],

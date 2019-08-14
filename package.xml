@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>prefix-order-id</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>prefix-order-id-1.0.0</summary>
-    <description>prefix-order-id-1.0.0</description>
+    <summary>prefix-order-id</summary>
+    <description>prefix-order-id</description>
     <notes>prefix-order-id</notes>
-    <authors><author><name>Vinit</name><user>Vinit</user><email>contact@orangemantra.com</email></author></authors>
-    <date>2016-09-10</date>
-    <time>05:08:25</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="OM_NewOrderId.xml" hash="0c33ef45355754ba447bfc6061ce8b05"/></dir></target></contents>
+    <authors><author><name>contact@orangemantra.com</name><user>OrangeMantra</user><email>contact@orangemantra.com</email></author></authors>
+    <date>2016-11-10</date>
+    <time>07:42:41</time>
+    <contents><target name="magecommunity"><dir name="OM"><dir name="Neworderid"><dir name="Helper"><file name="Data.php" hash="3d7ddc1356556a0bbec60c9a7b94517a"/></dir><dir name="Model"><dir name="Eav"><dir name="Entity"><file name="Type.php" hash="5f558ed972d01b38009d6e8a02c773bc"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7685610e3caf387559f24eadb9dac6e4"/><file name="config.xml" hash="73660c8af66166350408f6499e81ea65"/><file name="system.xml" hash="0b070583b91d171efbbbc003ff2bdff5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="OM_Neworderid.xml" hash="665523d4cc818e902c901e3e5954d90f"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.0.0</min><max>5.6.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>5.6.18</max></php></required></dependencies>
 </package>

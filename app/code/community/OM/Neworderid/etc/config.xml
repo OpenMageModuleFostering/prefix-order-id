@@ -20,17 +20,33 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    OM
- * @package     OM_NewOrderId
+ * @package     OM_Neworderid
  * @copyright   Copyright (c) 2016-2017 OM  (http://www.orangemantra.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 -->
 <config>
   <modules>
-    <OM_NewOrderId>
-      <active>true</active>
-      <codePool>community</codePool>
-      <version>1.0.0</version>
-    </OM_NewOrderId>
+    <OM_Neworderid>
+      <version>1.0.1</version>
+    </OM_Neworderid>
   </modules>
-</config>
+  <global>
+    <helpers>
+      <neworderid>
+        <class>OM_Neworderid_Helper</class>
+      </neworderid>
+    </helpers>
+	<models>
+	  <neworderid>
+		<class>OM_Neworderid_Model</class>
+		<resourceModel>neworderid_mysql4</resourceModel>
+	  </neworderid>
+			<eav>
+				<rewrite>
+					<entity_type>OM_Neworderid_Model_Eav_Entity_Type</entity_type>
+				</rewrite>
+			</eav>
+	</models>
+  </global>
+</config> 

@@ -37,9 +37,9 @@
 						<children>
 							<config>
 								<children>
-									<neworder_id module="neworder_id">
+									<neworderid module="neworderid">
 										<title>Prefix order id</title>
-									</neworder_id>
+									</neworderid>
 								</children>
 							</config>
 						</children>

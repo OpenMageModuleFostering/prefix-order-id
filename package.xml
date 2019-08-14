@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>prefix-order-id</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>prefix order id</summary>
-    <description>prefix order id</description>
-    <notes>prefix order id</notes>
-    <authors><author><name>Vivek</name><user>Vivek</user><email>contact@orangemantra.com</email></author></authors>
-    <date>2017-01-13</date>
-    <time>10:22:12</time>
-    <contents><target name="magecommunity"><dir name="OM"><dir name="NewOrderId"><dir name="Helper"><file name="Data.php" hash="7bd4d0b17d21af384516d8b606c6d54a"/></dir><dir name="Model"><dir name="Eav"><dir name="Entity"><file name="Type.php" hash="aec92977689b98d3d3207024386341b1"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="f4f90bebacc5aac35a1c0f08c09a8635"/><file name="config.xml" hash="0da68a952d3e2ecfb75bce7383321480"/><file name="system.xml" hash="4f190488943c548b9d5da3a1a04d82f0"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="OM_NewOrderId.xml" hash="454ad492cfc08d031aa52d0c6e036e98"/></dir></target></contents>
+    <summary>prefix-order-id</summary>
+    <description>prefix-order-id</description>
+    <notes>prefix-order-id</notes>
+    <authors><author><name>contact@orangemantra.in</name><user>OrangeMantra</user><email>contact@orangemantra.in</email></author></authors>
+    <date>2017-01-18</date>
+    <time>07:08:51</time>
+    <contents><target name="magecommunity"><dir name="OM"><dir name="NewOrderId"><dir name="Helper"><file name="Data.php" hash="7bd4d0b17d21af384516d8b606c6d54a"/></dir><dir name="Model"><dir name="Eav"><dir name="Entity"><file name="Type.php" hash="aec92977689b98d3d3207024386341b1"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="32153ba9b882d062469fb2fab17ea6ab"/><file name="config.xml" hash="0da68a952d3e2ecfb75bce7383321480"/><file name="system.xml" hash="0532fcd1cdabb15dea256a326de8ace1"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="OM_NewOrderId.xml" hash="454ad492cfc08d031aa52d0c6e036e98"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>7.0.10</max></php></required></dependencies>
+    <dependencies><required><php><min>5.0.0</min><max>7.0.10</max></php></required></dependencies>
 </package>

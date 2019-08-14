@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>prefix-order-id</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>prefix-order-id-1.0.0</summary>
+    <description>prefix-order-id-1.0.0</description>
+    <notes>prefix-order-id</notes>
+    <authors><author><name>Vinit</name><user>Vinit</user><email>contact@orangemantra.com</email></author></authors>
+    <date>2016-09-10</date>
+    <time>05:08:25</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="OM_NewOrderId.xml" hash="0c33ef45355754ba447bfc6061ce8b05"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

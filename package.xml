@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package>
     <name>prefix-order-id</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
     <extends/>
     <summary>prefix-order-id</summary>
     <description>prefix-order-id</description>
-    <notes>1.0.4</notes>
+    <notes>1.0.5</notes>
     <authors><author><name>contact@orangemantra.com</name><user>OrangeMantra</user><email>contact@orangemantra.com</email></author></authors>
     <date>2017-01-18</date>
-    <time>09:57:35</time>
+    <time>13:12:50</time>
     <contents><target name="magecommunity"><dir name="OM"><dir name="NewOrderId"><dir name="Helper"><file name="Data.php" hash="7bd4d0b17d21af384516d8b606c6d54a"/></dir><dir name="Model"><dir name="Eav"><dir name="Entity"><file name="Type.php" hash="aec92977689b98d3d3207024386341b1"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="97fd8e0e0632aa4024d77b2a88600a7d"/><file name="config.xml" hash="0da68a952d3e2ecfb75bce7383321480"/><file name="system.xml" hash="4f190488943c548b9d5da3a1a04d82f0"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="OM_NewOrderId.xml" hash="454ad492cfc08d031aa52d0c6e036e98"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>7.0.10</max></php></required></dependencies>

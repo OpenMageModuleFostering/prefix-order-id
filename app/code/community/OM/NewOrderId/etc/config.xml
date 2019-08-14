@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!--
 /**
  * Magento
@@ -20,32 +20,33 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    OM
- * @package     OM_Neworderid
+ * @package     OM_NewOrderId
  * @copyright   Copyright (c) 2016-2017 OM  (http://www.orangemantra.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 -->
 <config>
-	<acl>
-		<all>
-			<title>Allow Everything</title>
-		</all>
-		<resources>
-			<admin>
-				<children>
-					<system>
-						<children>
-							<config>
-								<children>
-									<neworderid module="neworderid">
-										<title>Prefix order id</title>
-									</neworderid>
-								</children>
-							</config>
-						</children>
-					</system>
-				</children>
-			</admin>
-		</resources>
-	</acl>
-</config>
+  <modules>
+    <OM_NewOrderId>
+      <version>0.1.0</version>
+    </OM_NewOrderId>
+  </modules>
+  <global>
+    <helpers>
+      <neworderid>
+        <class>OM_NewOrderId_Helper</class>
+      </neworderid>
+    </helpers>
+	<models>
+	  <neworderid>
+		<class>OM_NewOrderId_Model</class>
+		<resourceModel>neworderid_mysql4</resourceModel>
+	  </neworderid>
+			<eav>
+				<rewrite>
+					<entity_type>OM_NewOrderId_Model_Eav_Entity_Type</entity_type>
+				</rewrite>
+			</eav>
+	</models>
+  </global>
+</config> 

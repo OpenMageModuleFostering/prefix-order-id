@@ -20,14 +20,14 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    OM
- * @package     OM_Neworderid
+ * @package     OM_NewOrderId
  * @copyright   Copyright (c) 2016-2017 OM  (http://www.orangemantra.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 -->
 <config>
 	  <sections>
-		<neworderid  translate="label" module="neworderid">  
+		<neworder_id  translate="label" module="neworderid">  
 			<label>Prefix order id</label>	
 			<tab>sales</tab><frontend_type>text</frontend_type>
 			<sort_order>340</sort_order>
@@ -56,6 +56,6 @@
 					   </fields>
 					   </general>
 					</groups>
-		</neworderid>
+		</neworder_id>
 	  </sections>
 </config>

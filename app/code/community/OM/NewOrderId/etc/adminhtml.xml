@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
  * Magento
@@ -26,11 +26,26 @@
  */
 -->
 <config>
-  <modules>
-    <OM_Neworderid>
-      <active>true</active>
-      <codePool>community</codePool>
-      <version>1.0.1</version>
-    </OM_Neworderid>
-  </modules>
+	<acl>
+		<all>
+			<title>Allow Everything</title>
+		</all>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<neworder_id module="neworder_id">
+										<title>Prefix order id</title>
+									</neworder_id>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
 </config>

@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/prefix-order-id",
+    "name": "OpenMageModuleFostering\/prefix-order-id",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "prefix-order-id",
     "authors": [
-    {
-        "name": "contact@orangemantra.com",
-        "email": "contact@orangemantra.com"
-    }
-],
+        {
+            "name": "contact@orangemantra.com",
+            "email": "contact@orangemantra.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
